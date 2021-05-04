@@ -6,4 +6,8 @@
 <%= attachment_image_tag @list, :image, format: 'jpeg', size: "300x300" %>
 
 <%= link_to"編集",edit_todolist_path(@list.id) %>
+<<<<<<< HEAD
 <%= link_to "削除", destroy_todolist_path(@list.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
+=======
+<%= link_to"削除",destroy_todolist_path(@list.id),method::delete,"data-confirm" => "本当に削除しますか？"　%>
+>>>>>>> 9fb83c60f98e347038460f3acb40b35133e1f0af
